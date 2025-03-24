@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|c:\\users\\pablo\\source\\repos\\herramientas ii\\wgestionclientesbanco\\wgestionclientesbanco\\gestorclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|solutionrelative:wgestionclientesbanco\\gestorclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|c:\\users\\pablo\\source\\repos\\herramientas ii\\wgestionclientesbanco\\wgestionclientesbanco\\corporativeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|solutionrelative:wgestionclientesbanco\\corporativeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|c:\\users\\pablo\\source\\repos\\herramientas ii\\wgestionclientesbanco\\wgestionclientesbanco\\clsperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|solutionrelative:wgestionclientesbanco\\clsperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|c:\\users\\pablo\\source\\repos\\herramientas ii\\wgestionclientesbanco\\wgestionclientesbanco\\personfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|solutionrelative:wgestionclientesbanco\\personfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|c:\\users\\pablo\\source\\repos\\herramientas ii\\wgestionclientesbanco\\wgestionclientesbanco\\clscorporativeperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|solutionrelative:wgestionclientesbanco\\clscorporativeperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|c:\\users\\pablo\\source\\repos\\herramientas ii\\wgestionclientesbanco\\wgestionclientesbanco\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|solutionrelative:wgestionclientesbanco\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|c:\\users\\pablo\\source\\repos\\herramientas ii\\wgestionclientesbanco\\wgestionclientesbanco\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wgestionclientesbanco\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|solutionrelative:wgestionclientesbanco\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|c:\\users\\pablo\\source\\repos\\herramientas ii\\wgestionclientesbanco\\wgestionclientesbanco\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|solutionrelative:wgestionclientesbanco\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|c:\\users\\pablo\\source\\repos\\herramientas ii\\wgestionclientesbanco\\wgestionclientesbanco\\gestorperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|solutionrelative:wgestionclientesbanco\\gestorperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|c:\\users\\pablo\\source\\repos\\herramientas ii\\wgestionclientesbanco\\wgestionclientesbanco\\individualclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54FC2A5-A8AF-47A8-9ED3-F1BE6D8E4213}|wGestionClientesBanco\\wGestionClientesBanco.csproj|solutionrelative:wgestionclientesbanco\\individualclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "clsPerson.cs",
-              "DocumentMoniker": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wGestionClientesBanco\\clsPerson.cs",
-              "RelativeDocumentMoniker": "wGestionClientesBanco\\clsPerson.cs",
-              "ToolTip": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wGestionClientesBanco\\clsPerson.cs",
-              "RelativeToolTip": "wGestionClientesBanco\\clsPerson.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBQAAABBAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wGestionClientesBanco\\Person.cs",
+              "RelativeDocumentMoniker": "wGestionClientesBanco\\Person.cs",
+              "ToolTip": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wGestionClientesBanco\\Person.cs",
+              "RelativeToolTip": "wGestionClientesBanco\\Person.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T14:11:52.616Z",
               "IsPinned": true,
@@ -44,15 +56,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GestorClientes.cs",
-              "DocumentMoniker": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wGestionClientesBanco\\GestorClientes.cs",
-              "RelativeDocumentMoniker": "wGestionClientesBanco\\GestorClientes.cs",
-              "ToolTip": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wGestionClientesBanco\\GestorClientes.cs",
-              "RelativeToolTip": "wGestionClientesBanco\\GestorClientes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wGestionClientesBanco\\Form1.cs",
+              "RelativeDocumentMoniker": "wGestionClientesBanco\\Form1.cs",
+              "ToolTip": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wGestionClientesBanco\\Form1.cs",
+              "RelativeToolTip": "wGestionClientesBanco\\Form1.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T17:15:35.251Z",
+              "WhenOpened": "2025-03-24T18:18:36.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IndividualClient.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wGestionClientesBanco\\IndividualClient.cs",
+              "RelativeDocumentMoniker": "wGestionClientesBanco\\IndividualClient.cs",
+              "ToolTip": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wGestionClientesBanco\\IndividualClient.cs",
+              "RelativeToolTip": "wGestionClientesBanco\\IndividualClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T18:00:16.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wGestionClientesBanco\\PersonFactory.cs",
+              "RelativeDocumentMoniker": "wGestionClientesBanco\\PersonFactory.cs",
+              "ToolTip": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wGestionClientesBanco\\PersonFactory.cs",
+              "RelativeToolTip": "wGestionClientesBanco\\PersonFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T17:10:04.254Z",
               "EditorCaption": ""
             },
             {
@@ -81,13 +119,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "clsCorporativePerson.cs",
-              "DocumentMoniker": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wGestionClientesBanco\\clsCorporativePerson.cs",
-              "RelativeDocumentMoniker": "wGestionClientesBanco\\clsCorporativePerson.cs",
-              "ToolTip": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wGestionClientesBanco\\clsCorporativePerson.cs",
-              "RelativeToolTip": "wGestionClientesBanco\\clsCorporativePerson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "GestorPerson.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wGestionClientesBanco\\GestorPerson.cs",
+              "RelativeDocumentMoniker": "wGestionClientesBanco\\GestorPerson.cs",
+              "ToolTip": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wGestionClientesBanco\\GestorPerson.cs",
+              "RelativeToolTip": "wGestionClientesBanco\\GestorPerson.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wCkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T17:15:35.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CorporativeClient.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wGestionClientesBanco\\CorporativeClient.cs",
+              "RelativeDocumentMoniker": "wGestionClientesBanco\\CorporativeClient.cs",
+              "ToolTip": "C:\\Users\\Pablo\\source\\repos\\Herramientas II\\wGestionClientesBanco\\wGestionClientesBanco\\CorporativeClient.cs",
+              "RelativeToolTip": "wGestionClientesBanco\\CorporativeClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T15:06:38.124Z",
               "EditorCaption": ""

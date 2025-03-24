@@ -31,9 +31,9 @@
             this.lblbalance = new System.Windows.Forms.Label();
             this.lblID = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtBalance = new System.Windows.Forms.TextBox();
             this.lblTitle = new System.Windows.Forms.Label();
             this.listBoxUsers = new System.Windows.Forms.ListBox();
             this.btnAdd = new System.Windows.Forms.Button();
@@ -72,29 +72,29 @@
             this.lblName.TabIndex = 3;
             this.lblName.Text = "Nombre";
             // 
-            // textBox1
+            // txtID
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox1.Location = new System.Drawing.Point(190, 206);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(145, 20);
-            this.textBox1.TabIndex = 4;
+            this.txtID.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtID.Location = new System.Drawing.Point(190, 206);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(145, 20);
+            this.txtID.TabIndex = 4;
             // 
-            // textBox2
+            // txtName
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox2.Location = new System.Drawing.Point(190, 105);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(145, 20);
-            this.textBox2.TabIndex = 5;
+            this.txtName.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtName.Location = new System.Drawing.Point(190, 105);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(145, 20);
+            this.txtName.TabIndex = 5;
             // 
-            // textBox3
+            // txtBalance
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox3.Location = new System.Drawing.Point(190, 292);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(145, 20);
-            this.textBox3.TabIndex = 6;
+            this.txtBalance.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtBalance.Location = new System.Drawing.Point(190, 292);
+            this.txtBalance.Name = "txtBalance";
+            this.txtBalance.Size = new System.Drawing.Size(145, 20);
+            this.txtBalance.TabIndex = 6;
             // 
             // lblTitle
             // 
@@ -123,6 +123,7 @@
             this.btnAdd.TabIndex = 9;
             this.btnAdd.Text = "Agregar";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnList
             // 
@@ -166,9 +167,9 @@
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.listBoxUsers);
             this.Controls.Add(this.lblTitle);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtBalance);
+            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.txtID);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.lblID);
             this.Controls.Add(this.lblbalance);
@@ -183,9 +184,9 @@
         private System.Windows.Forms.Label lblbalance;
         private System.Windows.Forms.Label lblID;
         private System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox txtBalance;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.ListBox listBoxUsers;
         private System.Windows.Forms.Button btnAdd;
