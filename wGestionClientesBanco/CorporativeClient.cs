@@ -1,23 +1,47 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace wGestionClientesBanco
 {
-    public class CorporativeClient : Person
+    public class CorporativeClient : Client
     {
         public bool isCorporativeClient { get; set; }
-        public CorporativeClient(string name, string id, decimal balance, bool isCorporativeClient): base (name, id, balance)
+
+        #region Metodos
+        public CorporativeClient(string name, string id, decimal balance) : base(name, id, balance)
         {
-            //Si el saldo es mayor o igual a 50 millones, es un cliente corporativo
-            if (balance >= 50000000)
+            //Se verifica si el cliente es corporativo
+            VerifyAccessCredit();
+
+        }
+
+        public void VerifyAccessCredit()
+        {
+            //Se verifica si el cliente es corporativo con un balance mayor a 50,000,000
+            if (Balance >= 50000000)
             {
                 isCorporativeClient = true;
+                CalcularBeneficio();
+            }
+            else
+            {
+                isCorporativeClient = false;
+                CalcularBeneficio();
             }
 
-           
         }
+
+        public override string CalcularBeneficio()
+        {
+            return isCorporativeClient
+            ? "Cliente con acceso a línea de crédito."
+            : "No cumple con el saldo mínimo para línea de crédito.";
+
+        }
+        #endregion
     }
 }

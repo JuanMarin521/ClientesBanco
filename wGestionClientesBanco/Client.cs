@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace wGestionClientesBanco
 {
-    public abstract class Person {
+    public abstract class Client {
         //Nombre de la persona, se puede acceder y modificar
         public string Name { get; set; }
 
@@ -16,9 +16,9 @@ namespace wGestionClientesBanco
         //Saldo de la persona, se puede acceder y modificar
         public decimal Balance { get; set; }
 
-
+        #region Metodos
         //Constructor de la clase
-        protected Person(string name, string id, decimal balance)
+        protected Client(string name, string id, decimal balance)
         {
             if (string.IsNullOrEmpty(name))
             {
@@ -39,8 +39,17 @@ namespace wGestionClientesBanco
 
         }
 
-        public abstract calcularBeneficio();
+        public virtual void ActualizarSaldo(decimal monto)
+        {
+            if (monto <= 0)
+            {
+                throw new ArgumentOutOfRangeException("El monto no puede ser negativo o cero");
+            }
+            Balance = monto;
+        }
 
+        public abstract string CalcularBeneficio();
 
+        #endregion
     }
 }

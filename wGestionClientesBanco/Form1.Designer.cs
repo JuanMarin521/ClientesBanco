@@ -134,6 +134,7 @@
             this.btnList.TabIndex = 10;
             this.btnList.Text = "Listar";
             this.btnList.UseVisualStyleBackColor = false;
+            this.btnList.Click += new System.EventHandler(this.btnList_Click);
             // 
             // BtnDelete
             // 
@@ -144,6 +145,7 @@
             this.BtnDelete.TabIndex = 11;
             this.BtnDelete.Text = "Eliminar";
             this.BtnDelete.UseVisualStyleBackColor = false;
+            this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
             // 
             // btnEdit
             // 
@@ -154,6 +156,7 @@
             this.btnEdit.TabIndex = 12;
             this.btnEdit.Text = "Editar";
             this.btnEdit.UseVisualStyleBackColor = false;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // Form1
             // 
