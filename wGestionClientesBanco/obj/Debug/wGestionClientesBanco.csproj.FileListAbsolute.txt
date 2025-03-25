@@ -8,3 +8,13 @@ C:\Users\walte\Source\Repos\ClientesBanco\wGestionClientesBanco\bin\Debug\wGesti
 C:\Users\walte\Source\Repos\ClientesBanco\wGestionClientesBanco\bin\Debug\wGestionClientesBanco.pdb
 C:\Users\walte\Source\Repos\ClientesBanco\wGestionClientesBanco\obj\Debug\wGestionClientesBanco.exe
 C:\Users\walte\Source\Repos\ClientesBanco\wGestionClientesBanco\obj\Debug\wGestionClientesBanco.pdb
+C:\Users\Pablo\source\repos\Herramientas II\wGestionClientesBanco\wGestionClientesBanco\bin\Debug\wGestionClientesBanco.exe.config
+C:\Users\Pablo\source\repos\Herramientas II\wGestionClientesBanco\wGestionClientesBanco\bin\Debug\wGestionClientesBanco.exe
+C:\Users\Pablo\source\repos\Herramientas II\wGestionClientesBanco\wGestionClientesBanco\bin\Debug\wGestionClientesBanco.pdb
+C:\Users\Pablo\source\repos\Herramientas II\wGestionClientesBanco\wGestionClientesBanco\obj\Debug\wGestionClientesBanco.csproj.AssemblyReference.cache
+C:\Users\Pablo\source\repos\Herramientas II\wGestionClientesBanco\wGestionClientesBanco\obj\Debug\wGestionClientesBanco.Form1.resources
+C:\Users\Pablo\source\repos\Herramientas II\wGestionClientesBanco\wGestionClientesBanco\obj\Debug\wGestionClientesBanco.Properties.Resources.resources
+C:\Users\Pablo\source\repos\Herramientas II\wGestionClientesBanco\wGestionClientesBanco\obj\Debug\wGestionClientesBanco.csproj.GenerateResource.cache
+C:\Users\Pablo\source\repos\Herramientas II\wGestionClientesBanco\wGestionClientesBanco\obj\Debug\wGestionClientesBanco.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\source\repos\Herramientas II\wGestionClientesBanco\wGestionClientesBanco\obj\Debug\wGestionClientesBanco.exe
+C:\Users\Pablo\source\repos\Herramientas II\wGestionClientesBanco\wGestionClientesBanco\obj\Debug\wGestionClientesBanco.pdb

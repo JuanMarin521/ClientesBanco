@@ -8,15 +8,19 @@ namespace wGestionClientesBanco
 {
     internal class ClientFactory
     {
-        public static Client CrearCliente(string name, string id, decimal balance, int cuentasActivas = 1)
+        public static Client CrearCliente(string name, string id, decimal balance, string type)
         {
-            if (balance >= 50000000)
+            if (type== "Cliente Individual")
+            {
+                return new IndividualClient(name, id, balance);
+            }
+            else if (type == "Cliente Corporativo")
             {
                 return new CorporativeClient(name, id, balance);
             }
             else
             {
-                return new IndividualClient(name, id, balance);
+                throw new ArgumentException("Tipo de cliente no válido");
             }
         }
     }

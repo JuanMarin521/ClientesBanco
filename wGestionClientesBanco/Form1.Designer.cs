@@ -40,6 +40,8 @@
             this.btnList = new System.Windows.Forms.Button();
             this.BtnDelete = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
+            this.lblClientType = new System.Windows.Forms.Label();
+            this.cmbClientType = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblbalance
@@ -56,7 +58,7 @@
             // 
             this.lblID.AutoSize = true;
             this.lblID.Font = new System.Drawing.Font("Segoe Fluent Icons", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblID.Location = new System.Drawing.Point(77, 206);
+            this.lblID.Location = new System.Drawing.Point(77, 160);
             this.lblID.Name = "lblID";
             this.lblID.Size = new System.Drawing.Size(53, 19);
             this.lblID.TabIndex = 2;
@@ -75,7 +77,7 @@
             // txtID
             // 
             this.txtID.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtID.Location = new System.Drawing.Point(190, 206);
+            this.txtID.Location = new System.Drawing.Point(190, 160);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(145, 20);
             this.txtID.TabIndex = 4;
@@ -158,12 +160,37 @@
             this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
+            // lblClientType
+            // 
+            this.lblClientType.AutoSize = true;
+            this.lblClientType.Font = new System.Drawing.Font("Segoe Fluent Icons", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClientType.Location = new System.Drawing.Point(77, 220);
+            this.lblClientType.Name = "lblClientType";
+            this.lblClientType.Size = new System.Drawing.Size(96, 19);
+            this.lblClientType.TabIndex = 13;
+            this.lblClientType.Text = "Tipo Cliente: ";
+            // 
+            // cmbClientType
+            // 
+            this.cmbClientType.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.cmbClientType.FormattingEnabled = true;
+            this.cmbClientType.Items.AddRange(new object[] {
+            "Cliente Individual",
+            "Cliente Corporativo"});
+            this.cmbClientType.Location = new System.Drawing.Point(191, 224);
+            this.cmbClientType.Name = "cmbClientType";
+            this.cmbClientType.Size = new System.Drawing.Size(143, 21);
+            this.cmbClientType.TabIndex = 14;
+            this.cmbClientType.SelectedIndexChanged += new System.EventHandler(this.cmbClientType_SelectedIndexChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cmbClientType);
+            this.Controls.Add(this.lblClientType);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.BtnDelete);
             this.Controls.Add(this.btnList);
@@ -196,6 +223,8 @@
         private System.Windows.Forms.Button btnList;
         private System.Windows.Forms.Button BtnDelete;
         private System.Windows.Forms.Button btnEdit;
+        private System.Windows.Forms.Label lblClientType;
+        private System.Windows.Forms.ComboBox cmbClientType;
     }
 }
 

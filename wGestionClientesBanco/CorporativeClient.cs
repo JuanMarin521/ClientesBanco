@@ -10,11 +10,12 @@ namespace wGestionClientesBanco
     public class CorporativeClient : Client
     {
         public bool isCorporativeClient { get; set; }
+        public string Beneficio { get; private set; }
 
         #region Metodos
         public CorporativeClient(string name, string id, decimal balance) : base(name, id, balance)
         {
-            //Se verifica si el cliente es corporativo
+            //Se verifica si el cliente tiene acceso a línea de crédito
             VerifyAccessCredit();
 
         }
@@ -22,25 +23,16 @@ namespace wGestionClientesBanco
         public void VerifyAccessCredit()
         {
             //Se verifica si el cliente es corporativo con un balance mayor a 50,000,000
-            if (Balance >= 50000000)
-            {
-                isCorporativeClient = true;
-                CalcularBeneficio();
-            }
-            else
-            {
-                isCorporativeClient = false;
-                CalcularBeneficio();
-            }
+            isCorporativeClient = Balance >= 50000000;
+            Beneficio = CalcularBeneficio(); // Guardamos el beneficio
 
         }
 
         public override string CalcularBeneficio()
         {
             return isCorporativeClient
-            ? "Cliente con acceso a línea de crédito."
-            : "No cumple con el saldo mínimo para línea de crédito.";
-
+                ? "Cliente corporativo con acceso a línea de crédito"
+                : "Cliente corporativo sin acceso a línea de crédito";
         }
         #endregion
     }

@@ -73,6 +73,12 @@ namespace wGestionClientesBanco
 
             cliente.Name = nuevoNombre;
             cliente.Balance = nuevoSaldo;
+
+            // Si es un cliente corporativo, recalcular acceso a crédito
+            if (cliente is CorporativeClient corpCliente)
+            {
+                corpCliente.VerifyAccessCredit();
+            }
         }
 
 

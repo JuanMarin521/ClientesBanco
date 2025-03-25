@@ -22,6 +22,7 @@ namespace wGestionClientesBanco
             string name = txtName.Text;
             string id = txtID.Text;
             decimal balance = decimal.Parse(txtBalance.Text);
+            string type = cmbClientType.Text;
 
             if (string.IsNullOrEmpty(name)) {
                 MessageBox.Show("El nombre no puede ser nulo o vacio", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -36,12 +37,29 @@ namespace wGestionClientesBanco
                 MessageBox.Show("El saldo debe ser un número positivo");
 
             }
+            if (string.IsNullOrEmpty(type))
+            {
+                MessageBox.Show("Debe seleccionar un tipo de cliente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
             try
             {
-                Client person = ClientFactory.CrearCliente(name, id, balance); // Crear la persona
-                GestorClientes.Instance.agregarPerson(person); // Agregar la persona a la lista de personas
+                Client person = ClientFactory.CrearCliente(name, id, balance, type); // Crear la persona
+
+                GestorClientes.Instance.agregarPerson(person); // Agregar la persona a la lista de persona
+
+
                 MessageBox.Show($"Cliente agregado correctamente como {person.GetType().Name}");
+
+                if (person is CorporativeClient isCorpoClient)
+                {
+                    MessageBox.Show(isCorpoClient.Beneficio, "Estado del Cliente", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Cliente individual agregado correctamente", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
                 ActualizarListaClientes(); // Actualizar la lista de clientes
             }
             catch (Exception ex)
@@ -55,6 +73,8 @@ namespace wGestionClientesBanco
             string name = txtName.Text;
             string id = txtID.Text;
             decimal balance = decimal.Parse(txtBalance.Text);
+            string type = cmbClientType.Text;
+
 
             if (string.IsNullOrEmpty(name))
             {
@@ -67,7 +87,11 @@ namespace wGestionClientesBanco
             if (!decimal.TryParse(txtBalance.Text, out balance) || balance <= 0)
             {
                 MessageBox.Show("El saldo debe ser un número positivo");
-
+            }
+            if (string.IsNullOrEmpty(type))
+            {
+                MessageBox.Show("Debe seleccionar un tipo de cliente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
             try
             {
@@ -87,6 +111,8 @@ namespace wGestionClientesBanco
             string name = txtName.Text;
             string id = txtID.Text;
             decimal balance = decimal.Parse(txtBalance.Text);
+            string type = cmbClientType.Text;
+
             if (string.IsNullOrEmpty(name))
             {
                 MessageBox.Show("El nombre no puede ser nulo o vacio");
@@ -103,6 +129,7 @@ namespace wGestionClientesBanco
             try
             {
                 GestorClientes.Instance.EditarCliente(id, name, balance); // Agregar la persona a la lista de personas
+
                 MessageBox.Show("Persona editada correctamente"); // Mostrar mensaje de éxito
                 ActualizarListaClientes(); // Actualizar la lista de clientes
 
@@ -155,6 +182,23 @@ namespace wGestionClientesBanco
         }
 
         #endregion
+
+        private void LimpiarCampos()
+        {
+            txtName.Clear();
+            txtBalance.Clear();
+            txtID.Clear();
+            cmbClientType.SelectedIndex = 0;
+        }
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbClientType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
